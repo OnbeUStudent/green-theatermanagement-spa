@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  APP_NAME: 'Dii_Green_TheaterManagement_SPA'
+  APP_NAME: 'Dii_TheaterManagement_Spa'
   PACT_PACTICIPANT: 'green-theatermanagement-spa'
 jobs:
   build:
