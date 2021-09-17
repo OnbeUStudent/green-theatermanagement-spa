@@ -30,7 +30,7 @@ jobs:
       with: 
         PACT_BROKER_BASE_URL: ${{ secrets.PACT_BROKER_BASE_URL }}
         PACT_BROKER_TOKEN: ${{ secrets.PACT_BROKER_TOKEN }}
-        PACT_PACTICIPANT: {Your pact participant name}
+        PACT_PACTICIPANT: 'green-theatermanagement-spa'
     
     - name: 'Login via Azure CLI'
       uses: azure/login@v1
